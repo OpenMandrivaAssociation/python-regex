@@ -16,8 +16,9 @@ BuildRequires:  python-setuptools
 BuildRequires:  python2-setuptools
 
 %description
-This regex implementation is backwards-compatible with the standard 're' module,
-but offers additional functionality.
+This regex implementation is backwards-compatible with
+the standard 're' module, but offers additional
+functionality.
 
 %package -n python2-regex
 Summary: %{summary}
