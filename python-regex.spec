@@ -11,7 +11,7 @@ License:        Python
 Group:          Development/Python
 Url:            https://bitbucket.org/mrabarnett/mrab-regex
 BuildRequires:  python2-devel
-BuildRequires:  python-devel
+BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
 BuildRequires:  python2-setuptools
 
