@@ -2,11 +2,11 @@
 %define ver 2018.2.21
 
 Name:           python-%{oname}
-Version:        2018.02.21
+Version:        2018.11.22
 Release:        1
 Summary:        Alternative regular expression module, to replace re
 
-Source0:        http://pypi.python.org/packages/source/p/regex/regex-%{version}.tar.gz
+Source0:        https://pypi.python.org/packages/source/r/regex/regex-%{version}.tar.gz
 License:        Python
 Group:          Development/Python
 Url:            https://bitbucket.org/mrabarnett/mrab-regex
@@ -32,20 +32,20 @@ cp -a python2 python3
 
 %build
 pushd python2
-%{__python2} setup.py build
+python setup.py build
 popd
 
 pushd python3
-python3 setup.py build
+%py3_build
 popd
 
 %install
 pushd python2
-%{__python2} setup.py install --root=%{buildroot}
+python setup.py install --root=%{buildroot}
 popd
 
 pushd python3
-%{__python} setup.py install --root=%{buildroot}
+python setup.py install --root=%{buildroot}
 popd
 
 %files
@@ -61,4 +61,3 @@ popd
 %{py2_platsitedir}/_regex*
 %{py2_platsitedir}/test_regex.py
 %{py2_platsitedir}/regex.py
-

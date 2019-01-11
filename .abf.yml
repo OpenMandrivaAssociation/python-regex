@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   regex-2018.02.21.tar.gz: f166fd38450de52d5f865104cd7d5495c7f5dcab
+sources:
+  regex-2018.11.22.tar.gz: 437058ab22dc0bd3bd9e35aef93b9b70f19f12e9
