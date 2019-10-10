@@ -1,12 +1,11 @@
 %define oname   regex
-%define ver 2019.3.12
 
 Name:           python-%{oname}
-Version:        2019.03.12
-Release:        1
+Version:	2019.08.19
+Release:	1
 Summary:        Alternative regular expression module, to replace re
 
-Source0:        https://files.pythonhosted.org/packages/a3/d5/7dca7f9a629f8cfb06232bc23b4ce1bb5daa2115cbeee7f6868c57f2beb3/regex-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/6f/a6/99eeb5904ab763db87af4bd71d9b1dfdd9792681240657a4c0a599c10a81/regex-2019.08.19.tar.gz
 License:        Python
 Group:          Development/Python
 Url:            https://bitbucket.org/mrabarnett/mrab-regex
@@ -55,10 +54,10 @@ popd
 
 %files
 %doc python3/README
-%{py_platsitedir}/regex-%{ver}-*.egg-info
+%{py_platsitedir}/regex-*-*.egg-info
 %{py_platsitedir}/regex*
 
 %files -n python2-regex
 %doc python2/README
-%{py2_platsitedir}/regex-%{ver}-*.egg-info
+%{py2_platsitedir}/regex-*-*.egg-info
 %{py2_platsitedir}/regex*
