@@ -1,11 +1,11 @@
 %define oname   regex
 
 Name:           python-%{oname}
-Version:	2020.7.14
+Version:	2020.11.13
 Release:	1
 Summary:        Alternative regular expression module, to replace re
 
-Source0:	 https://files.pythonhosted.org/packages/source/r/%{oname}/%{oname}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/r/%{oname}/%{oname}-%{version}.tar.gz
 License:        Python
 Group:          Development/Python
 Url:            https://bitbucket.org/mrabarnett/mrab-regex
