@@ -5,7 +5,7 @@
 
 Name:		python-%{module}
 Version:	2022.10.31
-Release:	1
+Release:	2
 Summary:	Alternative regular expression module, to replace re
 
 #Source0:	https://files.pythonhosted.org/packages/source/r/%{module}/%{module}-%{version}.tar.gz
