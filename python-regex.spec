@@ -4,8 +4,8 @@
 %bcond_with python2
 
 Name:		python-%{module}
-Version:	2022.10.31
-Release:	2
+Version:	2023.10.3
+Release:	1
 Summary:	Alternative regular expression module, to replace re
 
 #Source0:	https://files.pythonhosted.org/packages/source/r/%{module}/%{module}-%{version}.tar.gz
