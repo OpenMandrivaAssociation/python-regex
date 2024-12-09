@@ -4,7 +4,7 @@
 %bcond_with python2
 
 Name:		python-%{module}
-Version:	2024.9.11
+Version:	2024.11.6
 Release:	1
 Summary:	Alternative regular expression module, to replace re
 
