@@ -1,7 +1,7 @@
 %define module	regex
 
 Name:		python-%{module}
-Version:	2025.11.3
+Version:	2026.7.19
 Release:	1
 Summary:	Alternative regular expression module, to replace re
 
